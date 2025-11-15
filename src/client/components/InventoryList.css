@@ -1,0 +1,56 @@
+/* Inventory List Styles */
+.inventory-list {
+  margin-bottom: 30px;
+}
+
+.inventory-list-empty {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.empty-state {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.empty-state h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.empty-state p {
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.list-header {
+  margin-bottom: 20px;
+}
+
+.list-header h2 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .items-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
